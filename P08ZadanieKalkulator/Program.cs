@@ -10,6 +10,9 @@ namespace P08ZadanieKalkulator
     {
         static void Main(string[] args)
         {
+            KalkulatorUniwersalny ku = new KalkulatorUniwersalny(RodzajOperacji.Odjmowanie);
+
+            int a = ku.WykonajOperacje(1, 6);
         }
     }
 }

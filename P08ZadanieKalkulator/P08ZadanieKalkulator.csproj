@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KalkulatorOdejmujacy.cs" />
+    <Compile Include="KalkulatorMnozenia.cs" />
+    <Compile Include="KalkulatorDzielenia.cs" />
+    <Compile Include="KalkulatorDodajacy.cs" />
+    <Compile Include="KalkulatorUniwersalny.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
