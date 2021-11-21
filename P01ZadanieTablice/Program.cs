@@ -29,8 +29,15 @@ namespace P01ZadanieTablice
                     string[] tmp = wiersze[i + 1].Split(';');
                     tab1[i, j] = tmp[j];
                 }
+
+            // wczytywanie do tablict tablic 
+
+            string[][] tab2 = new string[liczbaWierszy][];
+
+            for (int i = 0; i < liczbaWierszy; i++)
+                tab2[i] = wiersze[i + 1].Split(';');
             
-            // 
+
         }
     }
 }
