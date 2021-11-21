@@ -34,6 +34,13 @@ namespace P09ZadanieZawodnicy
                 z.Waga = Convert.ToInt32(komorki[7]);
                 zawodnicy[i] = z;
             }
+
+
+            for (int i = 0; i < zawodnicy.Length; i++)
+            {
+                Console.WriteLine(zawodnicy[i].PrzedstawSie());
+            }
+            Console.ReadKey();
         }
     }
 }
