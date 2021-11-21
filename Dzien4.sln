@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04ZadanieTemperatura", "P0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05Enumeratory", "P05Enumeratory\P05Enumeratory.csproj", "{FBC5FCD2-6B5C-4362-AE41-80780DF7F19A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06ZadaniePogoda", "P06ZadaniePogoda\P06ZadaniePogoda.csproj", "{8382277B-372B-4672-A749-A865792742B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FBC5FCD2-6B5C-4362-AE41-80780DF7F19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBC5FCD2-6B5C-4362-AE41-80780DF7F19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBC5FCD2-6B5C-4362-AE41-80780DF7F19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8382277B-372B-4672-A749-A865792742B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8382277B-372B-4672-A749-A865792742B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8382277B-372B-4672-A749-A865792742B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8382277B-372B-4672-A749-A865792742B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

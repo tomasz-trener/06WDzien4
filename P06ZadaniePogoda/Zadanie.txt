@@ -1,0 +1,9 @@
+﻿
+
+Stwórz klasę ManagerPogody, która pozwala na podanie temepratury w dowolnym mieście w dowolnej jednostce 
+
+(proszę wykorzystać fragmenty kodu z wczoraj WebClient)
+
+Dodatkowko proszę wykorzystać transformator jednostek.
+
+
