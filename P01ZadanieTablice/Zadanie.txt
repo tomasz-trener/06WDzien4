@@ -5,4 +5,4 @@ http://tomaszles.pl/wp-content/uploads/2019/06/zawodnicy.txt
 
 wczytaj dane do tablicy tablic oraz tablicyDwuwymiarowej
 
-i wyswietl dane w obydwu przypadkach w konsoli 
+i wyswietl dane w obydwu przypadkach w konsoli  
