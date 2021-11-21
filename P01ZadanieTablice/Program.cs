@@ -20,16 +20,17 @@ namespace P01ZadanieTablice
             int liczbaKolumn = wiersze[0].Split(';').Length;
             int liczbaWierszy = wiersze.Length - 1;
 
-            // wczytanie do tablicy tablic 
+            // wczytanie do tablicy duw wymiarowej 
             string[,] tab1 = new string[liczbaWierszy, liczbaKolumn];
 
             for (int i = 0; i < liczbaWierszy; i++)
+            {
                 for (int j = 0; j < liczbaKolumn; j++)
                 {
                     string[] tmp = wiersze[i + 1].Split(';');
                     tab1[i, j] = tmp[j];
                 }
-
+            }
             // wczytywanie do tablict tablic 
 
             string[][] tab2 = new string[liczbaWierszy][];
@@ -37,7 +38,7 @@ namespace P01ZadanieTablice
             for (int i = 0; i < liczbaWierszy; i++)
                 tab2[i] = wiersze[i + 1].Split(';');
             
-
+            
         }
     }
 }
