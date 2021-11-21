@@ -13,18 +13,21 @@ namespace P09ZadanieZawodnicy
         {
             string sciezka = @"c:\dane\zawodnicy.txt";
 
-            string[] dane = File.ReadAllLines(sciezka);
+            //string[] dane = File.ReadAllText(sciezka);
+             string[] dane = File.ReadAllLines(sciezka);
 
+            string[] napisy = new string[10];
             Zawodnik[] zawodnicy = new Zawodnik[dane.Length];
 
             for (int i = 0; i < dane.Length; i++)
             {
                 string[] komorki = dane[i].Split(';');
-                Zawodnik z = new Zawodnik();
+                Zawodnik z = new Zawodnik(komorki[2], komorki[3]);
+               
                 z.Id_zawodnika = Convert.ToInt32(komorki[0]);
                 z.Id_trenera = Convert.ToInt32(komorki[1]);
-                z.Imie = komorki[2];
-                z.Nazwisko = komorki[3];
+                //z.Imie = komorki[2];
+                //z.Nazwisko = komorki[3];
                 z.Kraj = komorki[4];
                 z.DataUrodzenia = Convert.ToDateTime(komorki[5]);
                 z.Wzrost = Convert.ToInt32(komorki[6]);

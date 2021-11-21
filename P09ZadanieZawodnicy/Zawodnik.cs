@@ -17,7 +17,16 @@ namespace P09ZadanieZawodnicy
         public int Wzrost;
         public int Waga;
 
+        public Zawodnik(string imie, string nazwisko)
+        {
+            Imie = imie;
+            Nazwisko = nazwisko;
+        }
 
+        public string PrzedstawSie()
+        {
+            return $"Nazywam {Imie} {Nazwisko} i pochodze z {Kraj}";
+        }
 
     }
 }
