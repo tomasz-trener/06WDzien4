@@ -1,0 +1,10 @@
+﻿
+Zadanie to wykorzystuje elementy rozwiązania z zadania P09
+
+Stwórz klasę ManagerZAwodnikow, która udostępnia metodę "Wczytaj", która  to wczytuje z pliku zawodników 
+metoda ta jest typu void (czyli niczego nie zwraca)
+
+uzupełnia jednak ona pole zdefinowane w tej klase "Zawodnicy" 
+
+Czyli Klasa ManagerZawodnikow, pozwala na wcztywywanie i przechowywanie tablicy zawodnikow 
+
