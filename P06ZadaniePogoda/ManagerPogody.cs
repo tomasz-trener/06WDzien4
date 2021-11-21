@@ -9,8 +9,20 @@ namespace P06ZadaniePogoda
 {
     class ManagerPogody
     {
+        // znamy:
+        // 1) pola  - do określenia cech obiektu (konfiguracji itp..)
+        // 2) konstruktory - wymuszanie sposobu tworzenia obiektu
+        // 3) metody - to wykonywania zadań
+
         public string NazwaMiasta;
         public Jednostka JednostkaTemeratury;
+
+
+        public ManagerPogody(string nazwaMiasta, Jednostka jt)
+        {
+            NazwaMiasta = nazwaMiasta;
+            JednostkaTemeratury = jt;
+        }
 
         public double PodajTemperature()
         {

@@ -10,12 +10,14 @@ namespace P06ZadaniePogoda
     {
         static void Main(string[] args)
         {
-            ManagerPogody mp = new ManagerPogody();
-            mp.NazwaMiasta = "warszawa";
-            mp.JednostkaTemeratury = Jednostka.Farenheit;
+            ManagerPogody mp = new ManagerPogody("warszawa", Jednostka.Farenheit);
 
             double t= mp.PodajTemperature();
+               
+            mp.NazwaMiasta = "kraków";
+            mp.JednostkaTemeratury = Jednostka.Celcjusz;
 
+            t = mp.PodajTemperature();
 
         }
     }
