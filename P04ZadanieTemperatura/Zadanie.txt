@@ -1,0 +1,18 @@
+﻿
+
+Stworz narzedzie, które pozwala na wygodną konwersje jednostki temperatury 
+
+z jednej jednostki na druga
+
+C->F
+F->C
+
+C->K
+K->C
+
+F->K
+K->F
+
+wej: double 
+wyj: double
+
