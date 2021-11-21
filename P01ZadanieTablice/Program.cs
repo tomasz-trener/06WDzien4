@@ -37,8 +37,26 @@ namespace P01ZadanieTablice
 
             for (int i = 0; i < liczbaWierszy; i++)
                 tab2[i] = wiersze[i + 1].Split(';');
-            
-            
+
+            // wyswietlanie danych 
+
+            // wyślietl tablcie dwu wymiarową (tab1)
+            for (int i = 0; i < liczbaWierszy; i++)
+            {
+                for (int j = 0; j < liczbaKolumn; j++)
+                {
+                    Console.Write(tab1[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine("-------------");
+
+            // wyswietl tablice tablic 
+
+
+
+            Console.ReadKey();
+
         }
     }
 }
