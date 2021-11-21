@@ -1,0 +1,18 @@
+﻿
+częśc 1:
+
+Stwórz klasę KalkulatorDodajacy, który umie tylko dodawać. Posiada on metodę Dodaj z dowma argumentami typu int 
+Stwórz klasę KalkulatorOdejmujacy, który umie tylko odejmowac. Posiada on metodę Odejmij z dowma argumentami typu int 
+...
+... zrób to samo dla dzielenia i mnożenia 
+
+częśc 2:
+Stwórz klasę KalkulatorUniwersalny, który posiada metode WykonajOperacje z dwoma arguemtami typu int 
+ten kalkulator posiada pole , które określa rodzaj operacji 
+
+(czy jest to dodawanie czy odejmowanie...)  <-- jakiego typu to pole  ? Enum
+
+Dodaj odpowiedni konstruktor, który zagwarantuje, że przed użyciem mteody Wykonajoperacje, na pewno wszsytkie arguemnty są uzupełnone. 
+
+w metodzie Main przetestuj kalkulatorUniwersalny 
+

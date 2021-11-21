@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06ZadaniePogoda", "P06Zada
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07Konstruktory", "P07Konstruktory\P07Konstruktory.csproj", "{0CC91FFE-070D-43F2-BFD4-A65C66FF8046}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08ZadanieKalkulator", "P08ZadanieKalkulator\P08ZadanieKalkulator.csproj", "{EB662177-CFD4-447A-9729-463565778897}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0CC91FFE-070D-43F2-BFD4-A65C66FF8046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CC91FFE-070D-43F2-BFD4-A65C66FF8046}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CC91FFE-070D-43F2-BFD4-A65C66FF8046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB662177-CFD4-447A-9729-463565778897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB662177-CFD4-447A-9729-463565778897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB662177-CFD4-447A-9729-463565778897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB662177-CFD4-447A-9729-463565778897}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
